@@ -1,0 +1,90 @@
+Sistema Badilsa:
+
+Cotizaciones: 
+Contadores generales.
+	-Cotizaciones abiertas (Registradas pero no enviadas).
+	-Cotizaciones enviadas (COT PDF generado).
+	-Cotizaciones pendientes (COT generada, pasado 3 días sin pasar a OT).
+	-Cotizaciones entregadas (Cerradas en facturación).
+Alta de Cotizaciones.
+	-Cliente.
+	-Usuario del cliente.
+	-Moneda.
+	-Tiempo de Entrega.
+	-Alta Partidas (Descripción, cantidad, PU, PDF).
+		-PDF estampado badilsa.
+Tabla de cotizaciones.
+	-Alta de las cotizaciones dadas de alta por el usuario.
+	-Partidas registradas dentro de esa cotización.
+Edición de cotización.
+Agregar mas partidas a la COT.
+Editar partidas de la cotización.
+Eliminar partidas de la cotización.
+Generación de COT PDF.
+Eliminar cotización.
+Marcar COT como rechazada.
+Marcar COT como aprobada.
+	-Pasamos COT con OC dada por el cliente.
+	-Pasamos COT con código interno en caso de no contar con OC.
+
+
+Ordenes de trabajo:
+Contadores generales:
+	-Cotizaciones proceso (COT que se están trabajando).
+	-Cotizaciones cerradas (Cerradas en facturación).
+Tabla de cotizaciones.
+	-Alta de las cotizaciones dadas de alta por el usuario.
+
+Partidas por cotización:
+*Conversion de cada partida de la cotización en una OT*
+Visualización del dibujo con estampado.
+Generación de OT PDF.
+Alta de material.
+	-Agregar nuevo material.
+		-Descripción.
+		-Cantidad.
+		-Unidad.
+		-Medida.
+	-Solicitar material.
+	-Eliminar material.
+	-Visualización del estatus del material.
+
+
+Compras:
+Contadores generales: 
+	-Material sin asignar (material sin colocar).
+	-Material en proceso (Colocadas pero aun sin recibir).
+Alta de orden de compra.
+	-Proveedor.
+	-Moneda.
+Tabla material pendiente.
+	-Asignación OC al material.
+	-Precio OC del material.
+Visualización del material colocado en cada OC.
+Generación de OC PDF.
+
+
+Almacen:
+Contadores generales:
+	-Material pendiente (Material por recibir).
+Tabla de material pendiente por recibir.
+Dar entrada al material.
+Alta para solicitar insumos a compras.
+	-Descripción.
+	-Cantidad.
+	-Unidad.
+	-Medida.
+Envió del material a producción una vez que llegue todo el material de esa OT.
+
+Producción: 
+Contadores generales:
+	-OT pendientes (Ordenes de trabajo sin asignar a técnico).
+	-OT en proceso (Ordenes asignadas).
+
+Asignación de OT al técnico.
+Liberación de la OT de producción.
+Envio a calidad.
+
+Calidad: 
+
+	
